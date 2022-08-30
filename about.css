@@ -1,0 +1,26 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+figure img{
+  height: 80%;
+  width: 70%;
+}
+.container{
+  box-shadow: 0px 3px 3px;
+  margin: 5px;
+  padding: 2px;
+  background-color: wheat;
+}
+p img{
+  width: 100%;
+  height 100%;
+}
+span{
+  color: red;
+  font-weight: bold;
+}
+p{
+  font-size: 18px;
+  text-align: left;
+  padding: 2px 2px;
+}
