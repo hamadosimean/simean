@@ -24,9 +24,9 @@ figure img {
   transition-duration: 1s;
 }
 
-figute:hover {
-  width: 90%;
-  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.30), 0 14px 11px rgba(0, 0, 0, 0.22);
+figure img:hover {
+  width: 100%;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.30), 0 14px 11px rgba(0, 0, 0, 0.2);
 }
 
 figure {
