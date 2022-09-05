@@ -14,13 +14,14 @@ body {
 header {
   background-color: black;
   display: flex;
-  position :fixed;
- height: 18vh;
- 
+  position: fixed;
+  height: 18vh;
+
 }
 
 ul li {
   list-style-type: none;
+  text-align: left;
 }
 
 ul li a {
@@ -35,7 +36,7 @@ ul {
   border-bottom: 2px solid wheat;
   text-align: left;
   transition: 1.5s;
-  padding-right:20px;
+  padding-right: 20px;
 }
 
 nav {
@@ -188,6 +189,6 @@ footer .social img {
 .banner p {
   font-size: 22px;
   font-weight: bolder;
-  font-family: Georgia,'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   animation: scaling 10s steps(1) infinite;
 }

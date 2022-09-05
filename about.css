@@ -15,9 +15,9 @@ p img{
   width: 100%;
   height 100%;
 }
-span{
-  color: red;
-  font-weight: bold;
+p span{
+  color:red;
+  font-weight:bold;
 }
 p{
   font-size: 18px;
