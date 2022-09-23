@@ -66,7 +66,7 @@ button:hover~ul {
 }
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), #000000), url('IMG_20220724_173142_860.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), #000000), url('pc-portable-hp-laptop-17-cp0274nf-17-3-amd.png');
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -91,7 +91,9 @@ button:hover~ul {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {}
+.container {
+
+}
 
 .item p {
   font-weight: bold;
@@ -191,4 +193,17 @@ footer .social img {
   font-weight: bolder;
   font-family: Georgia, 'Times New Roman', Times, serif;
   animation: scaling 10s steps(1) infinite;
+}
+@keyframes rotate{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.item :hover{
+  border: 4px solid orangered;
+  transition: 1.5s;
+  animation: rotate 1.5s linear infinite;
 }

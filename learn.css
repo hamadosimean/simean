@@ -13,6 +13,9 @@ figure img{
   height: 100%;
   width: 100%;
 }
+.babber{
+  background-image: rgb(rgba(0,0,0,0.5))
+}
 article{
   margin: 10px 2px;
 }
